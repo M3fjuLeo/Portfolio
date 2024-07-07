@@ -5,7 +5,7 @@
 .blob {
   overflow: hidden;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  background: url(public/images/me.jpeg);
+  background: url(images/me.jpeg);
   background-size: cover;
   background-position: center;
   animation: morph 3.75s linear infinite;
