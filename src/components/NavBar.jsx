@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,17 +30,25 @@ function NavBar() {
         />
 
         <ul className="md:flex hidden gap-6 font-bold text-lg">
-          <li className="hover:text-blue-500 duration-200">
-            <Link to="home">Home</Link>
+          <li className="hover:text-blue-500 duration-200 cursor-pointer">
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>{" "}
-          <li className="hover:text-blue-500 duration-200">
-            <Link to="about">About</Link>
+          <li className="hover:text-blue-500 duration-200 cursor-pointer">
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>{" "}
-          <li className="hover:text-blue-500 duration-200">
-            <Link to="projects">Projects</Link>
+          <li className="hover:text-blue-500 duration-200 cursor-pointer">
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
           </li>{" "}
-          <li className="hover:text-blue-500 duration-200">
-            <Link to="contact">Contact</Link>
+          <li className="hover:text-blue-500 duration-200 cursor-pointer">
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
