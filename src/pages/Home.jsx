@@ -1,14 +1,16 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
+import Section from "../components/Section";
 import SkillIcon from "../components/SkillIcon";
 
 function Home() {
   return (
-    <section
+    <Section
       id="home"
-      className="bg-gray-50 h-auto py-28 lg:h-lvh px-8 sm:px-24 flex justify-center items-center"
+      bg="bg-gray-50"
+      styles="bg-gray-50 lg:h-lvh h-auto lg:pt-60"
     >
-      <div className="flex flex-col gap-20 max-w-[60rem]">
+      <div className="flex flex-col gap-20">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-24 xl:gap-28 ">
           <div className="flex flex-col gap-8 text-center lg:text-start order-2 lg:order-1 max-w-[30rem]">
             <h1 className="font-bold text-5xl sm:text-6xl text-gray-800">
@@ -50,7 +52,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 

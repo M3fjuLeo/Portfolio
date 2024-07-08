@@ -1,6 +1,8 @@
+import Section from "../components/Section";
+
 function About() {
   return (
-    <section id="about" className="px-8 sm:px-24 py-[10rem]">
+    <Section id="about">
       <div className="mx-auto items-center justify-center lg:flex-row flex flex-col gap-16 max-w-[70rem]">
         <div className="relative flex items-center justify-center max-w-[40rem]">
           <img
@@ -33,7 +35,7 @@ function About() {
           </p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
 
