@@ -4,20 +4,16 @@ function About() {
       <div className="mx-auto items-center justify-center lg:flex-row flex flex-col gap-16 max-w-[70rem]">
         <div className="relative flex items-center justify-center max-w-[40rem]">
           <img
-            src="../public/images/about-image.webp"
+            src="../images/about-image.webp"
             alt=""
             className="h-auto md:min-w-[25rem] w-[35rem] rounded-xl"
           />
 
           <div className="absolute -bottom-6 -right-10 size-[10rem] items-center md:flex hidden justify-center bg-white rounded-full">
-            <img
-              src="../public/images/about-man.png"
-              alt=""
-              className="size-16"
-            />
+            <img src="../images/about-man.png" alt="" className="size-16" />
             <img
               className="absolute spin"
-              src="../public/images/about-spinner.svg"
+              src="../images/about-spinner.svg"
               alt=""
             />
           </div>
