@@ -6,7 +6,7 @@ function ProjectCard() {
           <img
             src="../images/Gymate.png"
             alt="Project image"
-            className="rounded-xl cursor-pointer object-cover h-full"
+            className="rounded-xl cursor-pointer object-cover w-full h-full"
           />
         </a>
       </div>
