@@ -1,3 +1,4 @@
+import { FiGithub } from "react-icons/fi";
 import ProjectCard from "../components/ProjectCard";
 import Section from "../components/Section";
 
@@ -23,6 +24,16 @@ const projects = [
     designer: "This website was created during Jonas Schmedtmann's course",
     skills: ["React", "Tailwind", "React Router", "Redux"],
   },
+  {
+    id: 3,
+    title: "🍿 usePopcorn",
+    link: "https://fast-react-pizza-co-lime.vercel.app/",
+    image: "../images/usePopcorn.png",
+    description: `The website allows users to search for movies, rate them, and add them to their watched library.`,
+    designer:
+      "The application was created based on the Jonas Schmedtmann course.",
+    skills: ["React", "CSS", "API"],
+  },
 ];
 
 function Projects() {
@@ -45,9 +56,15 @@ function Projects() {
         ))}
       </div>
 
-      <h1 className="text-3xl font-bold text-center">
-        New projects coming soon... 🤠
-      </h1>
+      <div className="text-center leading-10 text-gray-800">
+        <h1 className="text-3xl font-bold ">New projects coming soon... 🤠</h1>
+        <div className="flex items-center justify-center gap-4">
+          <p>More projects on github</p>
+          <a href="https://github.com/M3fjuLeo" target="_blank">
+            <FiGithub className="hover:text-blue-500 duration-200 cursor-pointer text-2xl" />
+          </a>
+        </div>
+      </div>
     </Section>
   );
 }
