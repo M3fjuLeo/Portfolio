@@ -8,18 +8,16 @@ function ProjectCard({
   skills,
 }) {
   return (
-    <div className="flex lg:gap-4 flex-col lg:flex-row bg-white rounded-xl shadow-md">
-      <div className="flex-1 w-full">
-        <a href={link} target="_blank" className="">
-          <img
-            src={image}
-            alt="Project image"
-            className="rounded-xl cursor-pointer object-cover w-full h-full"
-          />
-        </a>
-      </div>
+    <div className="flex lg:gap-4 size-100  flex-col lg:flex-row bg-white rounded-xl shadow-md">
+      <a href={link} target="_blank" className="">
+        <img
+          src={image}
+          alt="Project image"
+          className="rounded-xl cursor-pointer object-cover w-full h-full"
+        />
+      </a>
 
-      <div className="px-2 py-12 lg:items-start lg:text-start items-center text-center flex flex-col gap-4 flex-1">
+      {/* <div className="px-2 py-12 lg:items-start lg:text-start items-center text-center flex flex-col gap-4 flex-1">
         <h1 className="font-bold text-xl flex gap-2">
           <img src={icon} className="" alt="" />
           {title}
@@ -35,7 +33,7 @@ function ProjectCard({
           ))}
         </p>
         <p className="text-gray-800 text-sm">{designer}</p>
-      </div>
+      </div> */}
     </div>
   );
 }

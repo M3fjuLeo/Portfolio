@@ -5,6 +5,12 @@ import Section from "../components/Section";
 const projects = [
   {
     id: 1,
+    title: "The Wild Oasis",
+    link: "https://the-wild-oasis-omega-black.vercel.app/login",
+    image: "../images/Home-Untitled.png",
+  },
+  {
+    id: 2,
     title: "Gymate",
     link: "https://gymate-ruby.vercel.app/",
     image: "../images/Gymate.png",
@@ -16,7 +22,7 @@ const projects = [
     skills: ["React", "Vite", "Tailwind"],
   },
   {
-    id: 2,
+    id: 3,
     title: "🍕 Fast React Pizza.Co",
     link: "https://fast-react-pizza-co-lime.vercel.app/",
     image: "../images/FastReactPizza-homePage.png",
@@ -25,9 +31,9 @@ const projects = [
     skills: ["React", "Tailwind", "React Router", "Redux"],
   },
   {
-    id: 3,
+    id: 4,
     title: "🍿 usePopcorn",
-    link: "https://fast-react-pizza-co-lime.vercel.app/",
+    link: "https://use-popcorn-vert.vercel.app/",
     image: "../images/usePopcorn.png",
     description: `The website allows users to search for movies, rate them, and add them to their watched library.`,
     designer:
@@ -41,17 +47,17 @@ function Projects() {
     <Section id="projects" styles="bg-gray-50">
       <h1 className="text-center font-bold text-3xl mb-20">My Projects 👇</h1>
 
-      <div className="mb-20 flex flex-col gap-12">
+      <div className="mb-20 grid grid-cols-1 lg:grid-cols-2 gap-12">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
             image={project.image}
             link={project.link}
-            icon={project.icon}
-            title={project.title}
-            description={project.description}
-            designer={project.designer}
-            skills={project.skills}
+            // icon={project.icon}
+            // title={project.title}
+            // description={project.description}
+            // designer={project.designer}
+            // skills={project.skills}
           />
         ))}
       </div>
