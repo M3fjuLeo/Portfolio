@@ -27,14 +27,16 @@ function About() {
             Front-end Developer based in Krakow, Poland 📍
           </h3>
           <p className="font-medium text-gray-600">
-            Hey! My name is Mateusz, and I'm a Frontend Developer with a passion
-            for creating and developing websites.
+            Hello! My name is Mateusz, and I’m a Computer Science student and a
+            passionate Frontend Developer focused on building and developing
+            websites.
           </p>
           <p className="font-medium text-gray-600">
-            My main tech stack includes React combined with Tailwind CSS and
-            either React Query or Redux for state management. I am currently
-            expanding my skills by learning Python, C++, and Figma, and I have
-            experience working with Supabase.
+            My primary tech stack includes React combined with Tailwind CSS, and
+            I use React Query or Redux for state management. I’m currently
+            expanding my skill set at university, where I’m learning Python,
+            C++, Figma, and MySQL. Additionally, I have experience working with
+            Supabase.
           </p>
         </div>
       </div>
