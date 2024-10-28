@@ -48,6 +48,7 @@ function Home() {
             <SkillIcon src="https://skillicons.dev/icons?i=js" />
             <SkillIcon src="https://skillicons.dev/icons?i=react,redux,vite" />
             <SkillIcon src="https://skillicons.dev/icons?i=tailwind" />
+            <SkillIcon src="https://skillicons.dev/icons?i=supabase" />
             {/* <img src="https://skillicons.dev/icons?i=mysql" alt="" /> */}
           </div>
         </div>
